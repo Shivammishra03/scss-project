@@ -1,0 +1,635 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-outer-section .live-match-score-section {
+  background-image: url("../assets/images/background-img-1.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .match-outer-text-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .match-outer-text-sec .text {
+  color: white;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  margin-left: 8px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .match-time-detail {
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 16px;
+  margin-bottom: 8px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .live-border-sec {
+  position: relative;
+  padding-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .live-border-sec .live-button-outer-sec {
+  text-align: center;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .live-border-sec .live-button-outer-sec::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  right: 308px;
+  z-index: 4;
+  top: 10px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .live-border-sec .live-button-outer-sec a {
+  text-decoration: none;
+  background-color: #008632;
+  color: #fff;
+  text-decoration: none;
+  width: 63px;
+  height: 24px;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+  z-index: 5;
+  display: inline-block;
+  text-align: center;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .live-border-sec .live-button-outer-sec a .live-icon {
+  position: relative;
+  top: 3px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .live-border-sec .live-button-outer-sec a .live-text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  position: relative;
+  z-index: 5;
+  top: 2px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section {
+  max-width: 920px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section {
+  display: flex;
+  align-items: center;
+  width: 366px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec {
+  margin-left: 32px;
+  position: relative;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .total-over-sec {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7490196078);
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 6px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .score1 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .score1::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+  width: 73px;
+  top: 26px;
+  left: 2px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .score2 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .score2::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+  width: 73px;
+  top: 59px;
+  left: 2px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .score3 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  margin-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamA-outer-section .teamA-match-score-sec .score3 .total-over-sec {
+  color: #fff;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .vs-section {
+  margin-left: 92px;
+  background: rgba(255, 255, 255, 0.3607843137);
+  border-radius: 50%;
+  padding: 6px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section {
+  display: flex;
+  align-items: center;
+  width: 366px;
+  justify-content: end;
+  margin-left: auto;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec {
+  margin-right: 32px;
+  position: relative;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .total-over-sec {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.7490196078);
+  display: inline-block;
+  vertical-align: bottom;
+  margin-left: 6px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .score1 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .score1::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+  width: 73px;
+  top: 26px;
+  left: 31px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .score2 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .score2::before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+  width: 73px;
+  top: 59px;
+  left: 31px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .score3 {
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 0.7490196078);
+  margin-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .teams-score-outer-section .teamB-outer-section .teamB-match-score-sec .score3 .total-over-sec {
+  color: rgba(255, 255, 255, 0.7490196078);
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .target-score-outersection {
+  padding-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .target-score-outersection .target-score-section {
+  text-align: center;
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #F7F7FA;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .target-score-outersection .target-score-section::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  right: 308px;
+  z-index: 4;
+  top: 45px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .target-score-outersection .target-score-section::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  right: 308px;
+  z-index: 4;
+  top: 0px;
+  border: 1px solid rgba(236, 237, 241, 0.36);
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .stadium-detail-outer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 16px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .stadium-detail-outer-section .stadium-location {
+  margin-left: 8px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #F7F7FA;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec {
+  max-width: 945px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 78px;
+  gap: 20px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section .batters-run-section {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #1F1F1F, #1F1F1F);
+  width: 462px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 8px;
+  justify-content: space-around;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section .batters-run-section .batsman1, .main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section .batters-run-section .batsman2 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #1C1C28;
+  position: relative;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section .batters-run-section .batsman1 span, .main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section .batters-run-section .batsman2 span {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #E50695;
+  margin-left: 5px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .batters-inner-section .batters-run-section .batsman1 ::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgb(236, 237, 241);
+  height: 40px;
+  width: 0px;
+  left: 207px;
+  top: -10px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section label {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section .bowlers-run-section {
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, #1F1F1F, #1F1F1F);
+  width: 462px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 8px;
+  justify-content: space-around;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section .bowlers-run-section .batsman1, .main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section .bowlers-run-section .batsman2 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #1C1C28;
+  position: relative;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section .bowlers-run-section .batsman1 span, .main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section .bowlers-run-section .batsman2 span {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #E50695;
+  margin-left: 5px;
+}
+.main-outer-section .live-match-score-section .match-score-inner-sec .batters-bowlers-main-outer-sec .bowlers-inner-section .bowlers-run-section .batsman1 ::after {
+  content: "";
+  position: absolute;
+  border: 1px solid rgb(236, 237, 241);
+  height: 40px;
+  width: 0px;
+  left: 180px;
+  top: -10px;
+}
+.main-outer-section .latest-update-main-outer-sec {
+  max-width: 1172px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 64px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-head-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-head-sec .latest-update-head-text {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #1C1C28;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-head-sec .see-more-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #E50695;
+  text-decoration: underline;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 16px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates {
+  position: relative;
+  cursor: pointer;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates img {
+  border-radius: 5px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec {
+  position: absolute;
+  background: linear-gradient(0deg, #0F1C70 -4%, rgba(45, 65, 207, 0) 58.15%);
+  top: 0;
+  transition: 0.3s ease-in-out all;
+  opacity: 1;
+  height: 325px;
+  width: 578px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline {
+  color: #fff;
+  margin-left: 16px;
+  position: absolute;
+  bottom: 0;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec .news-text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #F7F7FA;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec .share-white-icon {
+  margin-left: auto;
+  margin-right: 16px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec .respo-share-white-icon {
+  display: none;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .bg-gredient {
+  background: linear-gradient(90deg, #EA14EC -2.04%, #1246CE 102.14%);
+  position: absolute;
+  width: 538px;
+  bottom: 0;
+  height: 4px;
+  right: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section {
+  overflow: hidden;
+  border-radius: 5px;
+  background: #F5F5F5;
+  width: 280px;
+  position: relative;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec {
+  overflow: hidden;
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec img {
+  border-radius: 5px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec {
+  margin: 0 16px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-headline-text {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-top: 9px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-share-sec {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-share-sec img {
+  margin-left: auto;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-share-sec .news-text {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #1F1F1F;
+}
+.main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .bg-gredient {
+  background: linear-gradient(90deg, #EA14EC -2.04%, #1246CE 102.14%);
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  height: 4px;
+  right: 15px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .main-outer-section .live-match-score-section {
+    background-image: url("../assets/images/respo-bg-img.svg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+  .main-outer-section .latest-update-main-outer-sec {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-head-sec {
+    padding-bottom: 16px;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 {
+    display: block;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates {
+    background: #F5F5F5;
+    margin-bottom: 16px;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates img {
+    width: 100%;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec {
+    position: relative;
+    background: none;
+    top: 0;
+    transition: none;
+    opacity: 1;
+    height: auto;
+    width: auto;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline {
+    position: relative;
+    color: #1F1F1F;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec {
+    padding-bottom: 16px;
+    margin-bottom: 0;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec .share-white-icon {
+    display: none;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec .respo-share-black-icon {
+    display: block;
+    width: 20px;
+    margin-left: auto;
+    margin-right: 16px;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .rcb-news-headline-sec .rcb-news-headline .news-share-sec .news-text {
+    color: #1F1F1F;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-1 .ipl-news-updates .bg-gredient {
+    width: 100%;
+    right: 0;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 {
+    display: block;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section {
+    margin-bottom: 16px;
+    overflow: unset;
+    height: 96px;
+    width: 100%;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec {
+    display: flex;
+    align-items: center;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec img {
+    width: 128px;
+    order: 1;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-headline-text {
+    padding-top: 0;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-share-sec {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .latest-rcb-img-sec .news-headlines-share-sec .news-share-sec img {
+    width: 16px;
+  }
+  .main-outer-section .latest-update-main-outer-sec .latest-update-news-sec-2 .ipl-news-update-section .bg-gredient {
+    width: 105px;
+    height: 2px;
+    right: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */

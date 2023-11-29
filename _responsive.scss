@@ -1,0 +1,98 @@
+@media(max-width:767px) {
+    .main-outer-section {
+        .live-match-score-section {
+            background-image: url('../assets/images/respo-bg-img.svg');
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: cover;
+        }
+        .latest-update-main-outer-sec {
+            padding-left: 8px;
+            padding-right: 8px;
+            .latest-update-head-sec {
+                padding-bottom: 16px;
+                .see-more-text {
+                    // color: blue;
+                }
+            }
+            .latest-update-news-sec-1 {
+                display: block;
+                .ipl-news-updates {
+                    background: #F5F5F5;
+                    margin-bottom: 16px;
+                    img {
+                        width: 100%;
+                    }
+                    .rcb-news-headline-sec {
+                        position: relative;
+                        background: none;
+                        top: 0;
+                        transition: none;
+                        opacity: 1;
+                        height: auto;
+                        width: auto;
+                        .rcb-news-headline  {
+                            position: relative;
+                            color: #1F1F1F;
+                            .news-share-sec {
+                                padding-bottom: 16px;
+                                margin-bottom: 0;
+                                .share-white-icon {
+                                    // width: 16px;
+                                    display: none;
+                                }
+                                .respo-share-black-icon {
+                                    display: block;
+                                    width: 20px;
+                                    margin-left: auto;
+                                    margin-right: 16px;
+                                }
+                                .news-text {
+                                    color: #1F1F1F;
+                                }
+                            }
+                        }
+                    }
+                    .bg-gredient {
+                        width: 100%;
+                        right: 0;
+                    }
+                }
+            }
+            .latest-update-news-sec-2 {
+                display: block;
+                .ipl-news-update-section {
+                    margin-bottom: 16px;
+                    overflow: unset;
+                    height: 96px;
+                    width: 100%;
+                    .latest-rcb-img-sec  {
+                        display: flex;
+                        align-items: center;
+                        img {
+                            width: 128px;
+                            order: 1;
+                        }
+                        .news-headlines-share-sec {
+                            .news-headline-text {
+                                padding-top: 0;
+                            }
+                            .news-share-sec  {
+                                padding-top: 0px;
+                                padding-bottom: 0px; 
+                                img {
+                                    width: 16px;
+                                }
+                            }
+                        }
+                    }
+                    .bg-gredient {
+                        width: 105px;
+                        height: 2px;
+                        right: 10px;
+                    } 
+                } 
+            }
+        }
+    }
+}
